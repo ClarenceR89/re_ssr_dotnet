@@ -9,8 +9,8 @@ namespace react_fe_workshop.Controllers
     {
         //TODO: get this info from the SEO Module
         [
-            Route("/"), 
-            Route("/fetchdata"), 
+            Route("/"),
+            Route("/fetchdata"),
             Route("/counter")
         ]
         public async Task<IActionResult> Index([FromServices] ISpaPrerenderer prerenderer)
@@ -19,7 +19,10 @@ namespace react_fe_workshop.Controllers
 
             //Note: Pass any custom data in through here
 
-            var prerenderResult = await prerenderer.RenderToString("./ClientApp/server/bootstrap", customDataParameter: initialState);
+            var prerenderResult = await prerenderer.RenderToString(
+                "./ClientApp/server/bootstrap",
+                customDataParameter: initialState
+            );
 
             return Content(prerenderResult.Html, "text/html");
         }
