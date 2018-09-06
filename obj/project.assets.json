@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/clarencer/Developer/react-fe-workshop/react-fe-workshop.csproj",
+      "projectUniqueName": "/Users/clarencer/Developer/re_ssr_dotnet/react-fe-workshop.csproj",
       "projectName": "react-fe-workshop",
-      "projectPath": "/Users/clarencer/Developer/react-fe-workshop/react-fe-workshop.csproj",
+      "projectPath": "/Users/clarencer/Developer/re_ssr_dotnet/react-fe-workshop.csproj",
       "packagesPath": "/Users/clarencer/.nuget/packages/",
-      "outputPath": "/Users/clarencer/Developer/react-fe-workshop/obj/",
+      "outputPath": "/Users/clarencer/Developer/re_ssr_dotnet/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
