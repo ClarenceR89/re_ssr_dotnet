@@ -3,7 +3,7 @@ import NavMenu from './NavMenu/NavMenu';
 
 export default props => (
   <React.Fragment>
-    <div className="container-fluid" >
+    <div className="container-fluid px-0" >
       <div className="row">
         <div className="col-12">
           <NavMenu />
